@@ -1,0 +1,21 @@
+========== VALIDATION REPORT ==========
+Original records: 200
+Artificial test records: 3
+Total records checked: 203
+
+Original valid: 195
+Original invalid: 5
+Artificial invalid detected: 3
+Total invalid: 8
+
+========== INVALID RECORDS ==========
+ID: 24871001 | Source: original | Errors: Missing country; 
+ID: 24897218 | Source: original | Errors: Invalid patient age or age unit; 
+ID: 24897224 | Source: original | Errors: Invalid patient age or age unit; 
+ID: 24957443 | Source: original | Errors: Missing country; 
+ID: 25309827 | Source: original | Errors: Missing country; 
+ID: 99900001 | Source: test | Errors: Invalid patient_sex; 
+ID: 99900002 | Source: test | Errors: Invalid patient age or age unit; 
+ID: 99900003 | Source: test | Errors: receiptdate < receivedate; 
+
+========== END OF REPORT ==========
